@@ -1,0 +1,6 @@
+{
+  "java.home": "C:\\Program Files\\Java\\jdk-17",
+  "maven.executable.path": "C:\\apache-maven-3.9.11-bin\\apache-maven-3.9.11\\bin\\mvn.cmd",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.configuration.updateBuildConfiguration": "interactive"
+}

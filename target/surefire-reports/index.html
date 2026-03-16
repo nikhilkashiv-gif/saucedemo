@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Enterprise_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Enterprise Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Enterprise_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\Nikhil kashiv\eclipse-workspace\abcd\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Enterprise_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Enterprise_Automation_Suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Enterprise_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Enterprise_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Enterprise_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Enterprise_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Enterprise_Automation_Suite" class="hide-methods passed suite-Enterprise_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Enterprise_Automation_Suite -->
+                      <a href="#" panel-name="suite-Enterprise_Automation_Suite" class="show-methods passed suite-Enterprise_Automation_Suite"> (show)</a> <!-- show-methods passed suite-Enterprise_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Enterprise_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testAddDynamicItemToCart">testAddDynamicItemToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testAllWidgetsAreVisible">testAllWidgetsAreVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testDashboardDataDrivenLogic(standard_user, secret_sauce, success)">testDashboardDataDrivenLogic(standard_user, secret_sauce, success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testDashboardDataDrivenLogic(invalid_user, wrong_password, failure)">testDashboardDataDrivenLogic(invalid_user, wrong_password, failure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testDashboardDataDrivenLogic(locked_out_user, secret_sauce, failure)">testDashboardDataDrivenLogic(locked_out_user, secret_sauce, failure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.api.ApiTest" class="method navigator-link" hash-for-method="testGetUserApi(2, 200)">testGetUserApi(2, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.api.ApiTest" class="method navigator-link" hash-for-method="testGetUserApi(1, 200)">testGetUserApi(1, 200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.api.ApiTest" class="method navigator-link" hash-for-method="testGetUserApi(23, 404)">testGetUserApi(23, 404)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testMenuNavigationWorks">testMenuNavigationWorks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testUserProfileInformation">testUserProfileInformation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Enterprise_Automation_Suite" title="abcd.tests.ui.DashboardTest" class="method navigator-link" hash-for-method="testsimulatedFailureForScreenshot">testsimulatedFailureForScreenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Enterprise_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Enterprise_Automation_Suite" class="panel Enterprise_Automation_Suite">
+          <div class="suite-Enterprise_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abcd.tests.api.ApiTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserApi(2, 200)">
+                  </a> <!-- testGetUserApi(2, 200) -->
+                  <span class="method-name">testGetUserApi</span>
+                  <span class="parameters">(2,200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserApi(1, 200)">
+                  </a> <!-- testGetUserApi(1, 200) -->
+                  <span class="method-name">testGetUserApi</span>
+                  <span class="parameters">(1,200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetUserApi(23, 404)">
+                  </a> <!-- testGetUserApi(23, 404) -->
+                  <span class="method-name">testGetUserApi</span>
+                  <span class="parameters">(23,404)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Enterprise_Automation_Suite-class-passed -->
+          <div class="suite-Enterprise_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">abcd.tests.ui.DashboardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddDynamicItemToCart">
+                  </a> <!-- testAddDynamicItemToCart -->
+                  <span class="method-name">testAddDynamicItemToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAllWidgetsAreVisible">
+                  </a> <!-- testAllWidgetsAreVisible -->
+                  <span class="method-name">testAllWidgetsAreVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardDataDrivenLogic(standard_user, secret_sauce, success)">
+                  </a> <!-- testDashboardDataDrivenLogic(standard_user, secret_sauce, success) -->
+                  <span class="method-name">testDashboardDataDrivenLogic</span>
+                  <span class="parameters">(standard_user,secret_sauce,success)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardDataDrivenLogic(invalid_user, wrong_password, failure)">
+                  </a> <!-- testDashboardDataDrivenLogic(invalid_user, wrong_password, failure) -->
+                  <span class="method-name">testDashboardDataDrivenLogic</span>
+                  <span class="parameters">(invalid_user,wrong_password,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDashboardDataDrivenLogic(locked_out_user, secret_sauce, failure)">
+                  </a> <!-- testDashboardDataDrivenLogic(locked_out_user, secret_sauce, failure) -->
+                  <span class="method-name">testDashboardDataDrivenLogic</span>
+                  <span class="parameters">(locked_out_user,secret_sauce,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMenuNavigationWorks">
+                  </a> <!-- testMenuNavigationWorks -->
+                  <span class="method-name">testMenuNavigationWorks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserProfileInformation">
+                  </a> <!-- testUserProfileInformation -->
+                  <span class="method-name">testUserProfileInformation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testsimulatedFailureForScreenshot">
+                  </a> <!-- testsimulatedFailureForScreenshot -->
+                  <span class="method-name">testsimulatedFailureForScreenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Enterprise_Automation_Suite-class-passed -->
+        </div> <!-- panel Enterprise_Automation_Suite -->
+        <div panel-name="test-xml-Enterprise_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nikhil kashiv\eclipse-workspace\abcd\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Enterprise Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;abcd.reports.TestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Data Driven - Dashboard UI Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;abcd.tests.ui.DashboardTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Data Driven - Dashboard UI Tests --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Data Driven - API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;data-driven&quot;/&gt;
+        &lt;include name=&quot;api&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;abcd.tests.api.ApiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Data Driven - API Tests --&gt;
+&lt;/suite&gt; &lt;!-- Enterprise Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Enterprise_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Enterprise Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Data Driven - Dashboard UI Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Data Driven - API Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Enterprise_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Enterprise Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">api</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetUserApi</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">data-driven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDashboardDataDrivenLogic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testGetUserApi</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">functional_validation</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddDynamicItemToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testUserProfileInformation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">high_priority</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAddDynamicItemToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDashboardDataDrivenLogic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMenuNavigationWorks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">negative_scenarios</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testsimulatedFailureForScreenshot</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">ui_validation</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testAllWidgetsAreVisible</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testDashboardDataDrivenLogic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testMenuNavigationWorks</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Enterprise_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Enterprise Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Enterprise_Automation_Suite');
+function tableData_Enterprise_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testGetUserApi')
+data.setCell(0, 2, 'abcd.tests.api.ApiTest')
+data.setCell(0, 3, 3101);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testDashboardDataDrivenLogic')
+data.setCell(1, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(1, 3, 872);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDashboardDataDrivenLogic')
+data.setCell(2, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(2, 3, 474);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDashboardDataDrivenLogic')
+data.setCell(3, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(3, 3, 397);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testGetUserApi')
+data.setCell(4, 2, 'abcd.tests.api.ApiTest')
+data.setCell(4, 3, 288);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAddDynamicItemToCart')
+data.setCell(5, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(5, 3, 281);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testMenuNavigationWorks')
+data.setCell(6, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(6, 3, 262);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testGetUserApi')
+data.setCell(7, 2, 'abcd.tests.api.ApiTest')
+data.setCell(7, 3, 259);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAllWidgetsAreVisible')
+data.setCell(8, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(8, 3, 29);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testUserProfileInformation')
+data.setCell(9, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testsimulatedFailureForScreenshot')
+data.setCell(10, 2, 'abcd.tests.ui.DashboardTest')
+data.setCell(10, 3, 1);
+window.suiteTableData['Enterprise_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Enterprise_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-Enterprise_Automation_Suite">
+              </div> <!-- times-div-Enterprise_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Enterprise_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Enterprise Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Enterprise_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Enterprise_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">abcd.tests.ui.DashboardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">5963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">6144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">6924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">7111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAllWidgetsAreVisible</span>
+                <span class="method-start">9551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDashboardDataDrivenLogic(standard_user, secret_sauce, success)</span>
+                <span class="method-start">10516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11389 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testMenuNavigationWorks</span>
+                <span class="method-start">11421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAddDynamicItemToCart</span>
+                <span class="method-start">11439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11686 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13145 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13149 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">13161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">15957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">16377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">16439 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDashboardDataDrivenLogic(locked_out_user, secret_sauce, failure)</span>
+                <span class="method-start">25147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25622 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">dashboardLoginSetup</span>
+                <span class="method-start">27474 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserProfileInformation</span>
+                <span class="method-start">31716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31718 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testsimulatedFailureForScreenshot</span>
+                <span class="method-start">32049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32050 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDashboardDataDrivenLogic(invalid_user, wrong_password, failure)</span>
+                <span class="method-start">40578 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40975 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">abcd.tests.api.ApiTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testGetUserApi(1, 200)</span>
+                <span class="method-start">41469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserApi(2, 200)</span>
+                <span class="method-start">44571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetUserApi(23, 404)</span>
+                <span class="method-start">44861 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

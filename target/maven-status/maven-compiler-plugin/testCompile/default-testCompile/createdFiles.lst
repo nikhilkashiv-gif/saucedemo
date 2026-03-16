@@ -1,0 +1,3 @@
+abcd\base\BaseTest.class
+abcd\tests\api\ApiTest.class
+abcd\tests\ui\DashboardTest.class

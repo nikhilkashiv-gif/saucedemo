@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-16T12:23:48 IST" name="Enterprise Automation Suite" finished-at="2026-03-16T12:24:33 IST" duration-ms="45180">
+    <groups>
+      <group name="ui_validation">
+        <method signature="DashboardTest.testDashboardDataDrivenLogic(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testDashboardDataDrivenLogic" class="abcd.tests.ui.DashboardTest"/>
+        <method signature="DashboardTest.testAllWidgetsAreVisible()[pri:2, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testAllWidgetsAreVisible" class="abcd.tests.ui.DashboardTest"/>
+        <method signature="DashboardTest.testMenuNavigationWorks()[pri:3, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testMenuNavigationWorks" class="abcd.tests.ui.DashboardTest"/>
+      </group> <!-- ui_validation -->
+      <group name="negative_scenarios">
+        <method signature="DashboardTest.testsimulatedFailureForScreenshot()[pri:10, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testsimulatedFailureForScreenshot" class="abcd.tests.ui.DashboardTest"/>
+      </group> <!-- negative_scenarios -->
+      <group name="data-driven">
+        <method signature="DashboardTest.testDashboardDataDrivenLogic(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testDashboardDataDrivenLogic" class="abcd.tests.ui.DashboardTest"/>
+        <method signature="ApiTest.testGetUserApi(java.lang.String,java.lang.String)[pri:0, instance:abcd.tests.api.ApiTest@5b7a7f33]" name="testGetUserApi" class="abcd.tests.api.ApiTest"/>
+      </group> <!-- data-driven -->
+      <group name="functional_validation">
+        <method signature="DashboardTest.testAddDynamicItemToCart()[pri:4, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testAddDynamicItemToCart" class="abcd.tests.ui.DashboardTest"/>
+        <method signature="DashboardTest.testUserProfileInformation()[pri:5, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testUserProfileInformation" class="abcd.tests.ui.DashboardTest"/>
+      </group> <!-- functional_validation -->
+      <group name="api">
+        <method signature="ApiTest.testGetUserApi(java.lang.String,java.lang.String)[pri:0, instance:abcd.tests.api.ApiTest@5b7a7f33]" name="testGetUserApi" class="abcd.tests.api.ApiTest"/>
+      </group> <!-- api -->
+      <group name="high_priority">
+        <method signature="DashboardTest.testDashboardDataDrivenLogic(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testDashboardDataDrivenLogic" class="abcd.tests.ui.DashboardTest"/>
+        <method signature="DashboardTest.testMenuNavigationWorks()[pri:3, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testMenuNavigationWorks" class="abcd.tests.ui.DashboardTest"/>
+        <method signature="DashboardTest.testAddDynamicItemToCart()[pri:4, instance:abcd.tests.ui.DashboardTest@606e4010]" name="testAddDynamicItemToCart" class="abcd.tests.ui.DashboardTest"/>
+      </group> <!-- high_priority -->
+    </groups>
+    <test started-at="2026-03-16T12:23:48 IST" name="Data Driven - Dashboard UI Tests" finished-at="2026-03-16T12:24:29 IST" duration-ms="41507">
+      <class name="abcd.tests.ui.DashboardTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:48 IST" name="setUp" finished-at="2026-03-16T12:23:55 IST" duration-ms="7108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:48 IST" name="setUp" finished-at="2026-03-16T12:23:54 IST" duration-ms="5960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:48 IST" name="setUp" finished-at="2026-03-16T12:23:54 IST" duration-ms="6142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:48 IST" name="setUp" finished-at="2026-03-16T12:23:55 IST" duration-ms="6922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:54 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:23:57 IST" duration-ms="3588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:54 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:23:59 IST" duration-ms="5277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:55 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:23:59 IST" duration-ms="4514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:55 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:23:58 IST" duration-ms="3404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method signature="testAllWidgetsAreVisible()[pri:2, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:57 IST" name="testAllWidgetsAreVisible" finished-at="2026-03-16T12:23:57 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllWidgetsAreVisible -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:57 IST" name="tearDown" finished-at="2026-03-16T12:24:01 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDashboardDataDrivenLogic(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:58 IST" name="testDashboardDataDrivenLogic" data-provider="dashboardData" finished-at="2026-03-16T12:23:59 IST" duration-ms="872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardDataDrivenLogic -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:59 IST" name="tearDown" finished-at="2026-03-16T12:24:01 IST" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testMenuNavigationWorks()[pri:3, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:59 IST" name="testMenuNavigationWorks" finished-at="2026-03-16T12:24:00 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuNavigationWorks -->
+        <test-method signature="testAddDynamicItemToCart()[pri:4, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:23:59 IST" name="testAddDynamicItemToCart" finished-at="2026-03-16T12:24:00 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddDynamicItemToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:00 IST" name="tearDown" finished-at="2026-03-16T12:24:01 IST" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:00 IST" name="tearDown" finished-at="2026-03-16T12:24:01 IST" duration-ms="1423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:01 IST" name="setUp" finished-at="2026-03-16T12:24:04 IST" duration-ms="2811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:01 IST" name="setUp" finished-at="2026-03-16T12:24:04 IST" duration-ms="3290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:01 IST" name="setUp" finished-at="2026-03-16T12:24:04 IST" duration-ms="3215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:04 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:24:13 IST" duration-ms="9190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:04 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:24:20 IST" duration-ms="15672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:04 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:24:20 IST" duration-ms="15276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method signature="testDashboardDataDrivenLogic(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:13 IST" name="testDashboardDataDrivenLogic" data-provider="dashboardData" finished-at="2026-03-16T12:24:13 IST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardDataDrivenLogic -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:13 IST" name="tearDown" finished-at="2026-03-16T12:24:14 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:14 IST" name="setUp" finished-at="2026-03-16T12:24:15 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="dashboardLoginSetup()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:15 IST" name="dashboardLoginSetup" finished-at="2026-03-16T12:24:28 IST" duration-ms="13104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardLoginSetup -->
+        <test-method signature="testUserProfileInformation()[pri:5, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:20 IST" name="testUserProfileInformation" finished-at="2026-03-16T12:24:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserProfileInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:20 IST" name="tearDown" finished-at="2026-03-16T12:24:20 IST" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testsimulatedFailureForScreenshot()[pri:10, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:20 IST" name="testsimulatedFailureForScreenshot" finished-at="2026-03-16T12:24:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsimulatedFailureForScreenshot -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:20 IST" name="tearDown" finished-at="2026-03-16T12:24:20 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testDashboardDataDrivenLogic(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:28 IST" name="testDashboardDataDrivenLogic" data-provider="dashboardData" finished-at="2026-03-16T12:24:29 IST" duration-ms="397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalid_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardDataDrivenLogic -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:abcd.tests.ui.DashboardTest@606e4010]" started-at="2026-03-16T12:24:29 IST" name="tearDown" finished-at="2026-03-16T12:24:29 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- abcd.tests.ui.DashboardTest -->
+    </test> <!-- Data Driven - Dashboard UI Tests -->
+    <test started-at="2026-03-16T12:24:29 IST" name="Data Driven - API Tests" finished-at="2026-03-16T12:24:33 IST" duration-ms="3654">
+      <class name="abcd.tests.api.ApiTest">
+        <test-method signature="testGetUserApi(java.lang.String,java.lang.String)[pri:0, instance:abcd.tests.api.ApiTest@5b7a7f33]" started-at="2026-03-16T12:24:29 IST" name="testGetUserApi" data-provider="apiTestData" finished-at="2026-03-16T12:24:32 IST" duration-ms="3101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserApi -->
+        <test-method signature="testGetUserApi(java.lang.String,java.lang.String)[pri:0, instance:abcd.tests.api.ApiTest@5b7a7f33]" started-at="2026-03-16T12:24:32 IST" name="testGetUserApi" data-provider="apiTestData" finished-at="2026-03-16T12:24:33 IST" duration-ms="288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserApi -->
+        <test-method signature="testGetUserApi(java.lang.String,java.lang.String)[pri:0, instance:abcd.tests.api.ApiTest@5b7a7f33]" started-at="2026-03-16T12:24:33 IST" name="testGetUserApi" data-provider="apiTestData" finished-at="2026-03-16T12:24:33 IST" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserApi -->
+      </class> <!-- abcd.tests.api.ApiTest -->
+    </test> <!-- Data Driven - API Tests -->
+  </suite> <!-- Enterprise Automation Suite -->
+</testng-results>

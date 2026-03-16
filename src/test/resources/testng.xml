@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Enterprise Automation Suite" parallel="methods" thread-count="4">
+
+    <listeners>
+        <listener class-name="abcd.reports.TestListener"/>
+    </listeners>
+
+    <test name="Data Driven - Dashboard UI Tests">
+        <!-- Runs all UI tests under the ui package -->
+        <classes>
+            <class name="abcd.tests.ui.DashboardTest"/>
+        </classes>
+    </test>
+
+    <!-- Run Data Driven API Tests -->
+    <test name="Data Driven - API Tests">
+        <groups>
+            <run>
+                <include name="data-driven"/>
+                <include name="api"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="abcd.tests.api.ApiTest"/>
+        </classes>
+    </test>
+
+</suite>
