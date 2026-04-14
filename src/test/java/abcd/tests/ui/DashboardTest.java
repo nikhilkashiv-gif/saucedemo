@@ -67,71 +67,37 @@ public class DashboardTest extends BaseTest {
         }
     }
 
-    @Test(priority = 2, groups = { "ui_validation" })
-    public void testAllWidgetsAreVisible() {
-        // Placeholder simulation
-        Assert.assertTrue(true, "All widgets are visible verified.");
-    }
 
-    @Test(priority = 3, groups = { "ui_validation", "high_priority" })
+    @Test(priority = 2, groups = { "ui_validation", "high_priority" })
     public void testMenuNavigationWorks() {
         dashboardPage.openMenu();
         // Placeholder check for menu open
-        Assert.assertTrue(true, "Menu opened successfully.");
+        Assert.assertTrue(dashboardPage.isMenuOpen(), "Menu opened successfully.");
+       
     }
-
-    // ==========================================
-    // GROUP 2: Functional Validation
-    // ==========================================
-
-    @Test(priority = 4, groups = { "functional_validation", "high_priority" })
-    public void testAddDynamicItemToCart() {
-        // Use the reusable dynamic locator method
-        dashboardPage.addDynamicItemToCart("Sauce Labs Backpack");
-        Assert.assertTrue(true, "Item successfully added to cart using dynamic locator.");
-    }
-
-    @Test(priority = 5, groups = { "functional_validation" })
-    public void testUserProfileInformation() {
-        // Placeholder setup
-        Assert.assertTrue(true, "User profile information verified.");
-    }
-
-    // @Test(priority = 6, groups = { "functional_validation" })
-    // public void testNotificationIconWorks() {
-    // // Deliberately fail this test to prove Extent captures failures and
-    // screenshots
-    // Assert.assertTrue(false, "Intentional failure: Notification icon verified.");
-    // }
-
-    // ==========================================
-    // GROUP 3: Navigation Validation
-    // ==========================================
-
-    // @Test(priority = 7, groups = {"navigation_validation"})
-    // public void testNavigateToProfilePage() {
-    // Assert.assertTrue(true, "Navigated to profile page.");
-    // }
-
-    // @Test(priority = 8, groups = {"navigation_validation"})
-    // public void testNavigateToSettingsPage() {
-    // Assert.assertTrue(true, "Navigated to settings page.");
-    // }
 
     // // ==========================================
-    // // GROUP 4: Negative Scenarios
+    // // GROUP 2: Functional Validation
     // // ==========================================
 
-    // @Test(priority = 9, groups = {"negative_scenarios"})
-    // public void testUnauthorizedDashboardAccess() {
-    // Assert.assertTrue(true, "Unauthorized access rejected.");
+    // @Test(priority = 3, groups = { "functional_validation", "high_priority" })
+    // public void testAddDynamicItemToCart() {
+    //     // Use the reusable dynamic locator method
+    //     dashboardPage.addDynamicItemToCart("Sauce Labs Backpack");
+    //    Assert.assertTrue(dashboardPage.isCartBadgeVisible(), "Item was not added to cart.");
     // }
+    
 
-    @Test(priority = 10, groups = { "negative_scenarios" })
-    public void testsimulatedFailureForScreenshot() {
-        // This will deliberately fail to demonstrate screenshot capture in Extent
-        // Reports
-        // Uncomment to test failure reporting.
-        // Assert.fail("Simulated failure to trigger ExtentReports screenshot capture");
-    }
+    
+
+//     @Test(priority = 6, groups = { "functional_validation" })
+//     public void testNotificationIconWorks() {
+    
+//     //screenshots
+//     dashboardPage.addDynamicItemToCart("Sauce Labs Backpack");
+//    // Assert.assertTrue(dashboardPage.isItemInCart("Sauce Labs Backpack"), " Notification icon not verified.");
+//     }
+
+    
+    
 }

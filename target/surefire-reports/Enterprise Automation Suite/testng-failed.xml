@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="4" parallel="methods" name="Failed suite [Enterprise Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+<suite thread-count="1" parallel="methods" name="Failed suite [Enterprise Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <listeners>
     <listener class-name="abcd.reports.TestListener"/>
   </listeners>
-  <test thread-count="4" parallel="methods" name="Data Driven - Dashboard UI Tests(failed)" verbose="0">
+  <test thread-count="1" parallel="methods" name="Data Driven - Dashboard UI Tests(failed)" verbose="0">
     <classes>
       <class name="abcd.tests.ui.DashboardTest">
         <methods>
+          <include name="testMenuNavigationWorks"/>
           <include name="setUp"/>
           <include name="dashboardLoginSetup"/>
           <include name="tearDown"/>
-          <include name="testNotificationIconWorks"/>
         </methods>
       </class> <!-- abcd.tests.ui.DashboardTest -->
     </classes>
   </test> <!-- Data Driven - Dashboard UI Tests(failed) -->
-  <test thread-count="4" parallel="methods" name="Data Driven - API Tests(failed)" verbose="0">
-    <groups>
-      <run>
-        <include name="data-driven"/>
-        <include name="api"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="abcd.tests.api.ApiTest">
-        <methods>
-          <include name="testGetUserApi" invocation-numbers="0 1 2"/>
-        </methods>
-      </class> <!-- abcd.tests.api.ApiTest -->
-    </classes>
-  </test> <!-- Data Driven - API Tests(failed) -->
 </suite> <!-- Failed suite [Enterprise Automation Suite] -->
